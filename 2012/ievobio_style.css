@@ -1,0 +1,330 @@
+/*turned off margins and padding for every element. Must define 
+elements margin and padding individually if you want them to have it.*/
+* {margin: 0; padding: 0;}
+
+
+body {
+	background-color: #7AA7A7;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center; /*ie workaround for centering the entire page*/
+}
+
+/*Container for entire page*/
+#container {
+	margin-left: 80px; /* made it fixed layout. use 0 auto; for centering the page*/
+	text-align:left; /*counteracting the IE workaround so that the text is left*/
+	width: 846px;
+	overflow: hidden;
+}
+
+/*holds the content with 45px margins on either side*/
+#content {  
+	margin: 20px 45px 20px 45px;
+	width: 756px;
+	overflow: hidden;
+	position:relative;
+}
+
+a:link {
+	color: #1A1A9D;
+}
+
+a:visited {
+	color: #660066;
+}
+
+a:hover {
+	color: #000000;
+}
+
+a:active {
+	color: #000000;
+}
+
+#top {
+	padding-bottom: 10px;
+	font-size: 90%;
+	
+}
+#top a:link {
+	color: #003300;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+}
+#speaker1 {
+	width: 50%;
+	float: left;
+	margin-left: 1.2em;
+	clear: left;
+}
+#fulltalks {
+	overflow: hidden;
+	font-size: 95%;
+}
+#fulltalks li {
+	margin-bottom: 1em;
+}
+
+
+#icons {
+	text-align: center;
+}
+
+#speaker1 img {
+	margin: 3px;
+}
+#speaker2 {
+	width: 45%;
+	float: right;
+	clear: right;
+}
+#speaker2 img {
+	margin: 3px;
+	border: thin solid #000000;
+}
+
+
+#top a:visited {
+	color: #663366;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#top a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}	
+#top a:active {
+	color: #003300;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+.titlebox {
+	font-weight: bold;
+	padding-top: 2em;
+	padding-bottom: 3em;
+	width: 100%;
+}
+
+.title {
+	font-size: 125%;
+}
+
+
+
+.date {
+	font-size: 95%;
+}
+
+.bio {
+	font-size: small;
+}
+
+
+#main {
+	width: 70%;
+	float:left;
+}
+
+#main p {
+	padding-bottom: 20px;
+	margin-left: 1.2em;
+	line-height: 1.35em;
+}
+
+#main h2 {
+	font-size: medium;
+	color: #FFFFFF;
+	background-color: #474C8C;
+	background-image: url(images/bar-left_06.png);
+	padding: 3px;
+	background-repeat: no-repeat;
+	background-position: left;
+	text-indent: 1.25em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+.barend {
+	float: right;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+
+#col1 {
+	width: 45%;
+	float: left;
+	margin-bottom: 1.5em;
+	margin-left: 1.2em;
+}
+
+#col2 {
+	width: 45%;
+	float: right;
+	margin-bottom: 1.5em;
+}
+
+#sidemenu {
+	width: 170px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:thick;
+	border-bottom-color:#000000;
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	float:right;
+	padding: 10px 3px 10px 5px;
+	margin-top: 0.5em;
+	background-color: #474C8C;
+	font-size: 90%;
+}
+.indent {
+	text-indent: 1em;
+}
+
+
+#sidemenu a:link {
+	/*color: #003300;*/
+	color: #FFFF00;
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+#sidemenu a:visited {
+	color: #FFFF66;
+	display:block;
+	margin-bottom: 0.5em;
+}
+#sidemenu a:hover {
+	color: #FFFFFF;
+	display:block;
+	margin-bottom: 0.5em;
+}
+#sidemenu a:active {
+	color: #FFFF00;
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+ 
+#footer {
+	color: #FFFF00;
+	background-color: #000000;
+	width: 756px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 45px;
+	padding-top: 5px;
+}
+#footer p {
+	margin-left: 2em;
+	margin-top: 1em;
+	padding-bottom: 10px;
+}
+.eol {
+	background-color: #FFFFFF;
+	padding: 6px;
+}
+
+
+#footer hr {
+color:#666600;
+}
+
+.credit2 {
+	font-size: 70%;
+	color: #CCCC33;
+}
+
+#footer a:link {
+	color: #FFFF99;
+	
+}
+
+#footer a:visited {
+	color: #FF9900;
+	
+}
+
+#footer a:hover {
+	color: #FFFFFF;
+	
+}
+
+#footer a:active {
+	color: #FFFF99;
+	
+}
+ul { list-style-image:url(images/bullet_ievobio.png);
+}
+
+
+#line {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #666600;
+}
+.draft {
+	font-size: x-large;
+	font-weight: bold;
+	color: #0033CC;
+	text-align: center;
+}
+.clearfloat {
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+	height: 0px;
+}
+
+#twitter {
+position:absolute;left:701px;top:570px;
+}
+
+#comments {
+	
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:thick;
+	border-bottom-color:#000000;
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	font-size: 90%;
+	padding-bottom: 10px;
+}
+
+#extras {
+	width: 756px;
+	margin-left: 45px;
+	margin-bottom: 45px;
+
+}
+#commlink {
+	font-size: 75%;
+	color: #FFFF99;
+	float: right;
+	padding-right: 1em;
+}
+#commlink a {
+	color: #FFFF99;
+	font-weight: normal;
+}
+#commlink a:visited {
+	color: #CCCCCC;
+	font-weight: normal;
+}
+#commlink a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: normal;
+}

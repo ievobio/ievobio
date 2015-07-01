@@ -1,0 +1,8 @@
+#content, #container, #main, #sidemenu, #footer { width: auto !important; overflow: visible !important; float: none !important; color: black; font-size: 12pt; background-color: white; border: none; }
+#main a { text-decoration: underline; color: blue; } 
+#sidemenu a:visited { color: blue; }
+#footer a:link { color: #000000; }
+#footer a:visited {
+	color: #660066;}
+	
+.credit2 { color: #000000;}
